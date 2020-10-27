@@ -24,7 +24,7 @@ public class ArduinoComtroller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H)) // Arduinoと接続することを確認
         {
             Debug.Log("送信");
-            m_SerialPort.Write("Hello");
+            m_SerialPort.Write("OK");
         }
     }
     private void OnApplicationQuit()
